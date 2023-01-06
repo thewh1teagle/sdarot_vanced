@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Sdarot Vanced",
+    "version": "1.0",
+    "permissions": ["declarativeNetRequest"],
+    "declarative_net_request" : {
+        "rule_resources" : [
+            {
+                "id" : "1",
+                "path": "rules.json",
+                "enabled": true
+            }
+        ]
+    },
+    "content_scripts": [{
+        "matches": ["*://*/watch/*"],
+        "js": ["script.js"]
+    }]
+}
