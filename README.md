@@ -3,9 +3,9 @@
 sdarot.tv chrome extensions which enhance it
 
 ### Features
-- Download videos
-- Cast videos to chromecast (fix issues in original website)
-
+- Download videos ⬇️
+- Cast videos to chromecast (fix issues in original website) 📺
+- Countdown 30 seconds on inactive tab while doing something else, then video is ready. ⏲️
 
 ### Installation
 1. Download zip file from [releases](https://github.com/thewh1teagle/sdarot_vanced/releases)
